@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Inter-regular;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: Inter-regular;
+    src: url(../font/Inter/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-medium;
+    src: url(../font/Inter/static/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: Inter-bold;
+    src: url(../font/Inter/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: Inter-semibold;
+    src: url(../font/Inter/static/Inter-SemiBold.ttf);
+}

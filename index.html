@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div>
+                <a class="logo-name" href="#">FashionHub</a>
+                <ul>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Brand</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul>
+                <li class="shop-list"><a href="#"><img src="./img/shop.svg" alt=""></a></li>
+                <li class="notif-list"><a href="#"><img src="./img/notification.svg" alt=""></a></li>
+                <li class="account">
+                    <img src="./img/account-photo.svg" alt="">
+                    <div>
+                        <span>Good Morning!</span>
+                        <p>Scarlet Johnson</p>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section class="product-photo">
+            <img src="./img/product-mainphoto.svg" alt="">
+            <div #swiperRef="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./img/product-mainphoto.svg" alt=""></div>
+                  <div class="swiper-slide"><img src="./img/product-photo2.svg" alt=""></div>
+                  <div class="swiper-slide"><img src="./img/product-photo3.svg" alt=""></div>
+                  <div class="swiper-slide"><img src="./img/product-photo4.svg" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+        </section>
+
+
+        <section class="product-characters">
+          <!-- Menu-bar -->
+          <ul class="product-characters__menu-bar">
+            <li><a href="#">Home <img src="./img/next-arroq.svg" alt=""></a></li>
+            <li><a href="#">Decoration <img src="./img/next-arroq.svg" alt=""></a></li>
+            <li><a href="#">Furniture <img src="./img/next-arroq.svg" alt=""></a></li>
+            <li><a href="#">Storage <img src="./img/next-arroq.svg" alt=""></a></li>
+            <li><a href="#">Sideboard</a></li>
+          </ul>
+
+          <!-- Brend -->
+          <div class="product-characters__brend">
+            <div class="product-name">
+              <h2>Embrace Sideboard</h2>
+              <span>Teixeira Design Studio</span>
+            </div>
+            <ul class="product-buttons">
+              <li>
+                <a href="#">
+                  <img src="./img/favorite.svg" alt="">
+                  <span>109</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./img/saved.svg" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./img/share.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Price -->
+          <div class="product-characters__price-section">
+            <div class="price">
+              <p>$71.56</p>
+              <span><del>$71.56</del></span>
+            </div>
+            <div class="reviews">
+              <ul>
+                <li><a href="#">
+                  <img src="./img/star.svg" alt="">
+                  <span>4.8</span>
+                </a></li>
+                <li><a href="#">
+                  <img src="./img/message.svg" alt="">
+                  <span>67 Reviews</span>
+                </a></li>
+              </ul>
+              <p><span>93%</span> of buyers have recommended this.</p>
+            </div>
+          </div>
+
+          <!-- Color section -->
+          <div class="product-characters__color-section">
+            <p>Choose a Color</p>
+            <ul>
+              <li>
+                <div>
+
+                </div>
+              </li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+    
+          <!-- Size section -->
+          <div class="product-characters__size-section">
+            <p>Choose a Size</p>
+            <ul>
+              <li id="small-size"><a id="small-a" href="#">
+                <div></div>
+                Small
+              </a></li>
+              <li><a href="#">
+                <div></div>
+                Medium
+              </a></li>
+              <li><a href="#">
+                <div></div>
+                Large
+              </a></li>
+              <li><a href="#">
+                <div></div>
+                Extra Large
+              </a></li>
+              <li><a href="#">
+                <div></div>
+                XXL
+              </a></li>
+            </ul>
+          </div>
+
+          <!-- Delivery part -->
+          <div class="product-characters__delivery-part">
+            <ul class="order-buttons">
+              <button class="quantity">
+                <span class="decrease">-</span>
+                <span class="quantity__amount">5</span>
+                <span class="increase">+</span>
+              </button>
+              <button class="add-to-cart">
+                <img src="./img/shop-white.svg" alt="">
+                <span>Add To Cart</span>
+              </button>
+            </ul>
+
+            <div class="delivery-main">
+              <div class="track">
+                <img src="./img/track.svg" alt="">
+                <div>
+                  <p>Free Delivery</p>
+                  <span>Enter your Postal code for Delivery Availability</span>
+                </div>
+              </div>
+              <div class="return">
+                <img src="./img/shop-red.svg" alt="">
+                <div>
+                  <p>Return Delivery</p>
+                  <span>Free 30 days Delivery Return. <u>Details</u></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          centeredSlides: true,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    
+        var appendNumber = 4;
+        var prependNumber = 1;
+        document
+          .querySelector(".prepend-2-slides")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.prependSlide([
+              '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+              '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+            ]);
+          });
+        document
+          .querySelector(".prepend-slide")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.prependSlide(
+              '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+            );
+          });
+        document
+          .querySelector(".append-slide")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.appendSlide(
+              '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+            );
+          });
+        document
+          .querySelector(".append-2-slides")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.appendSlide([
+              '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+              '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+            ]);
+          });
+      </script>
+</body>
+</html>
